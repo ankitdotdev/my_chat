@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "795536414796",
+    "project_id": "my-chat-e0435",
+    "storage_bucket": "my-chat-e0435.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:795536414796:android:d7a74e42037dd8f9043ce9",
+        "android_client_info": {
+          "package_name": "ankitm05.my_chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "795536414796-jjk9scscied9ufkiekpt0v1lecpd42t1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqy_uu3jy0FGGn83H6-Cr2I5qIxKDLu3g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "795536414796-jjk9scscied9ufkiekpt0v1lecpd42t1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "795536414796-vb716e609holgacolb5rg4ejkefl4btm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "ankitm05.myChat"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

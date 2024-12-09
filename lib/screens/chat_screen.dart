@@ -95,6 +95,7 @@ class _ChatScreenState extends State<ChatScreen> {
               },
               keyboardType: TextInputType.multiline,
               decoration: InputDecoration(
+                hintText: 'Hi, Type you message here.',
                 border: OutlineInputBorder(
                   borderRadius: BorderRadius.circular(60),
                 ),

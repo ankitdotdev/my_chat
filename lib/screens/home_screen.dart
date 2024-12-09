@@ -1,19 +1,23 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:my_chat/screens/chat_screen.dart';
 
 class HomeScreen extends StatefulWidget {
-  const HomeScreen({super.key});
+  const HomeScreen(
+    this.user, {
+    super.key,
+  });
+
+  final User user;
 
   @override
   State<HomeScreen> createState() => _HomeScreenState();
 
-  static void navigate(BuildContext context) async {
+  static void navigate(BuildContext context, User user) async {
     Navigator.pushAndRemoveUntil(
       context,
       MaterialPageRoute(
-        builder: (context) {
-          return const HomeScreen();
-        },
+        builder: (context) => HomeScreen(user),
       ),
       (route) {
         return false;
