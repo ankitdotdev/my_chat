@@ -63,6 +63,7 @@ class DefaultFirebaseOptions {
     messagingSenderId: '795536414796',
     projectId: 'my-chat-e0435',
     storageBucket: 'my-chat-e0435.firebasestorage.app',
+    androidClientId: '795536414796-cphu6drm7fh569uavma256bngjn7jph6.apps.googleusercontent.com',
     iosClientId: '795536414796-vb716e609holgacolb5rg4ejkefl4btm.apps.googleusercontent.com',
     iosBundleId: 'ankitm05.myChat',
   );
